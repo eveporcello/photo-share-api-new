@@ -1,0 +1,17 @@
+{
+  "name": "photo-share-api",
+  "version": "0.0.0",
+  "description": "A GraphQL Service for Sharing Photos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql,json"
+  },
+  "author": "Eve Porcello",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.0.0-rc.2",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.17.5",
+    "uuid": "^3.2.1"
+  }
+}
